@@ -1,4 +1,4 @@
-def Leonardo_Pisano(num: int) -> int:
+def Leonardo_Pisano(num: int) -> None:
     num_1 = 0
     num_2 = 1
     for i in range(num):
@@ -7,4 +7,4 @@ def Leonardo_Pisano(num: int) -> int:
         print(num_1, end=' ')
 
 
-Leonardo_Pisano(5)
+Leonardo_Pisano(10)
