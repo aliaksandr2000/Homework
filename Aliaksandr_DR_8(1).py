@@ -4,10 +4,10 @@ class Car:
         self.type = type
         self.year = year
 
-    def move_1(self):
+    def car_on(self):
         print('Автомобиль заведен')
 
-    def move_2(self):
+    def car_off(self):
         print('Автомобиль заглушен')
 
 
@@ -19,5 +19,5 @@ BMW = Car('black', '530', '2021')
 Opel = Car('Green', 'Corsa', '1984')
 print(BMW)
 print(Opel)
-print(BMW.move_1())
-print(Opel.move_2())
+print(BMW.car_off())
+print(Opel.car_on())
